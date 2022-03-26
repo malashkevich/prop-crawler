@@ -1,0 +1,34 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "tsc && ts-node index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/cron": "^1.7.3",
+    "@types/got": "^9.6.12",
+    "@types/jfs": "^0.2.5",
+    "@types/logger": "^0.0.1",
+    "@types/node-fetch": "^2.6.1",
+    "@types/node-telegram-bot-api": "^0.56.0",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "cheerio": "*",
+    "cron": "^1.8.2",
+    "got": "^9.6.0",
+    "jfs": "^0.3.0",
+    "logger": "^0.0.1",
+    "node-fetch": "^2.6.7",
+    "node-telegram-bot-api": "^0.56.0"
+  }
+}
